@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+ <body style="margin:0; font-family:Arial, sans-serif; background-color:#f7faff; color:#222;">
+<body>
+  <style>
+  body {background-image: url('https://exampllee.vercel.app/assets/F10.jpg'); background-size:cover; background-position:center background-repeat: no-repeat; background-attachment: fixed;}
+  </style>
+  <!-- hero section -->
+   <div style="background-color:darkblue; color: white; text-align: center; font-size: 15px; margin: 0; background-color : #003153; padding: 5px;">
+     <h1><dt>Mahasiswa Sistem Informasi</h1>
+     <p>Jago IT&#128187 • Suka Koding • Berkarakter🌱</p></dt>
+   </div>
+   
+   <!-- picture & image -->
+   <div style="padding:20px; background-color:#ffffffcc; margin:15px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+     
+     <h3 style="color:#355485">📸 HTML Images</h3>
+         <p style="text-align:left;">Tag <span style="font-family:monospace">&lt;img&gt</span> digunakan untuk menampilkan gambar + dijadikan tautan. Contohnya:</p>
+         <img src="https://exampllee.vercel.app/assets/F01.jpg" style="width:100%; max-width:350px; display:block; margin:auto; border-radius:10px;">
+         
+       <p>Contoh <b>Gambar animasi (Gif):</b></p>
+         <img src="https://exampllee.vercel.app/assets/G02.gif" alt="ini contoh gif" style="width:100%; max-width:350px; display:block; margin:auto; border-radius:10px;">
+         
+       <p>Dan berikut penerapan &lt;picture&gt; element:</p>
+         <img src="https://exampllee.vercel.app/assets/F11.jpg" style="width:100%; max-width:350px;">
+   </div>
+   
+   <div style="padding:20px; background-color:#ffffffcc; margin:15px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+     
+     <!--- image mapping --->
+     <h3 style="color:#355485">🗺️ Image Map</h3>
+       <p>Kita bisa membuat gambar yang memiliki area klik berbeda-beda:</p>
+       
+       <img src="https://exampllee.vercel.app/assets/F16.jpg" style="width:100%; max-width:350px;" alt="gambar yang di klik" usemap="#work-map">
+       
+       <!--- area 1 persegi panjang --->
+       <map name="work-map">
+         <area shape="rect" coords="34,44,270,350" href="https://www.w3schools.com/html/computer.htm" alt="Area 1">
+         
+              <!--- area 2 lingkaran --->
+       <map name="work-map">
+         <area shape="circle" coords="337,300,44" href="https://www.w3schools.com/html/coffee.htm" alt="Area 2">
+
+       </map>
+       
+       <p>➡️ coba klik bagian komputer atau cangkir kopi di gambar di atas!</p>
+   </div>
+   
+   <!--- tabel section -->
+   <div style="padding:20px; background-color:#ffffffcc; margin:15px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+      <h3>📊 HTML tables</h3>
+       <p>Tabel digunakan untuk menampilkan data baris dan kolom:</p>
+       
+       <table style="width:100%; border-collapse:collapse; text-align:center; font-size:14px;">
+            <tr style="background-color:#4f90c6; color:white;">
+                <th style="border:1px solid #999; padding:6px;" colspan="3">Data Mahasiswa SI</th>
+            </tr>
+            <tr style="background-color:#f0f7ff;">
+                <th style="border:1px solid #999; padding:6px;">Nama</th>
+                <th style="border:1px solid #999; padding:6px;">NIM</th>
+                <th style="border:1px solid #999; padding:6px;">Minat</th>
+            </tr>
+            <tr>
+                <td style="border:1px solid #999; padding:6px;">Fatkhur</td>
+                <td style="border:1px solid #999; padding:6px;">0110122090</td>
+                <td style="border:1px solid #999; padding:6px;">Web Development</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid #999; padding:6px;">Riyan</td>
+                <td style="border:1px solid #999; padding:6px;">0110122091</td>
+                <td style="border:1px solid #999; padding:6px;">UI/UX Design</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="border:1px solid #999; padding:6px; font-weight:bold;">Jumlah Mahasiswa Aktif: 2</td>
+            </tr>
+        </table>
+   </div>
+   
+   <div style="padding:20px; background-color:#ffffffcc; margin:15px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+     <h3 style="color:#355485">📋 HTML List</h3>
+      <p><b>Unordered List (daftar tanpa urutan):</b></p>
+        <ul>
+          <li>Analisis Sistem</li>
+          <li>Desain Database</li>
+          <li>Pemograman Web</li>
+        </ul>
+      <p><b>Ordered List (daftar berururtan):</b></p>
+        <ol>
+          <li>Belajar HTML</li>
+          <li>Belajar CSS</li>
+          <li>Belajar JavaScript</li>
+        </ol>
+        
+      <p><b>Description List</b></p>
+      <dl>
+      <dt><b>HTML</b></dt>
+      <dd>Bahasa untuk membuat struktur web</dd>
+    
+      <dt><b>CSS</b></dt>
+      <dd>Bahasa untuk memperindah tampilan web</dd>
+      
+      <dt><b>JavaScript</b></dt>
+      <dd>Bahasa untuk membuat web menjadi interaktif</dd>
+      </dl>
+   </div>
+   
+   <div>
+     <p style="background-color:#1f3963; color:white; text-align:center; padding:20px; font-size:13px; margin:0; font-family:Arial, sans-serif;">
+       © 2025 STT Nurul Fikri — Jago IT, Berkarakter</p>
+   </div>
+</body>
+</html>
